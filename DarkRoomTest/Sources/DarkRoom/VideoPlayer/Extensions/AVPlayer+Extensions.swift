@@ -1,0 +1,69 @@
+//
+//  AVPlayer+Extensions.swift
+//  
+//
+//  Created by Kiarash Vosough on 6/29/22.
+//
+//  Copyright (c) 2022 Divar
+//
+//  Permission is hereby granted, free of charge, to any person obtaining a copy
+//  of this software and associated documentation files (the "Software"), to deal
+//  in the Software without restriction, including without limitation the rights
+//  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//  copies of the Software, and to permit persons to whom the Software is
+//  furnished to do so, subject to the following conditions:
+//
+//  The above copyright notice and this permission notice shall be included in all
+//  copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+//  SOFTWARE.
+
+import AVFoundation
+import UIKit
+
+public extension AVPlayer {
+    
+    var bufferProgress: Double {
+        return currentItem?.bufferProgress ?? -1
+    }
+    
+    var currentBufferDuration: Double {
+        return currentItem?.currentBufferDuration ?? -1
+    }
+    
+    var currentDuration: Double {
+        return currentItem?.currentDuration ?? -1
+    }
+    
+    var isEnded: Bool {
+        currentDuration == totalDuration
+    }
+    
+    var currentImage: UIImage? {
+        guard
+            let playerItem = currentItem,
+            let cgImage = try? AVAssetImageGenerator(asset: playerItem.asset).copyCGImage(at: currentTime(), actualTime: nil)
+            else { return nil }
+
+        return UIImage(cgImage: cgImage)
+    }
+    
+    var playProgress: Double {
+        return currentItem?.playProgress ?? -1
+    }
+    
+    var totalDuration: Double {
+        return currentItem?.totalDuration ?? -1
+    }
+    
+    convenience init(asset: AVURLAsset) {
+        self.init(playerItem: AVPlayerItem(asset: asset))
+    }
+    
+}

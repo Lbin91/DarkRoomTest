@@ -1,0 +1,1101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40582DDC2AD66F500083C653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DDB2AD66F500083C653 /* AppDelegate.swift */; };
+		40582DDE2AD66F500083C653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DDD2AD66F500083C653 /* SceneDelegate.swift */; };
+		40582DE02AD66F500083C653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DDF2AD66F500083C653 /* ViewController.swift */; };
+		40582DE32AD66F500083C653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40582DE12AD66F500083C653 /* Main.storyboard */; };
+		40582DE52AD66F520083C653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40582DE42AD66F520083C653 /* Assets.xcassets */; };
+		40582DE82AD66F520083C653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40582DE62AD66F520083C653 /* LaunchScreen.storyboard */; };
+		40582DF32AD66F520083C653 /* DarkRoomTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DF22AD66F520083C653 /* DarkRoomTestTests.swift */; };
+		40582DFD2AD66F520083C653 /* DarkRoomTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DFC2AD66F520083C653 /* DarkRoomTestUITests.swift */; };
+		40582DFF2AD66F520083C653 /* DarkRoomTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DFE2AD66F520083C653 /* DarkRoomTestUITestsLaunchTests.swift */; };
+		40582E722AD66F720083C653 /* DarkRoomDummyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E0E2AD66F720083C653 /* DarkRoomDummyImageView.swift */; };
+		40582E732AD66F720083C653 /* DarkRoomImageViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E0F2AD66F720083C653 /* DarkRoomImageViewerController.swift */; };
+		40582E742AD66F720083C653 /* DarkRoomSliderViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E112AD66F720083C653 /* DarkRoomSliderViewConfiguration.swift */; };
+		40582E752AD66F720083C653 /* DarkRoomImageControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E122AD66F720083C653 /* DarkRoomImageControllerConfiguration.swift */; };
+		40582E762AD66F720083C653 /* DarkRoomCarouselConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E132AD66F720083C653 /* DarkRoomCarouselConfiguration.swift */; };
+		40582E772AD66F720083C653 /* DarkRoomControlViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E142AD66F720083C653 /* DarkRoomControlViewConfiguration.swift */; };
+		40582E782AD66F720083C653 /* DarkRoomVideoPlayerControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E152AD66F720083C653 /* DarkRoomVideoPlayerControllerConfiguration.swift */; };
+		40582E792AD66F720083C653 /* DarkRoomTimeStatusConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E162AD66F720083C653 /* DarkRoomTimeStatusConfiguration.swift */; };
+		40582E7A2AD66F720083C653 /* DarkRoomThumbViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E172AD66F720083C653 /* DarkRoomThumbViewConfiguration.swift */; };
+		40582E7B2AD66F720083C653 /* DarkRoomLoadingViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E182AD66F720083C653 /* DarkRoomLoadingViewConfiguration.swift */; };
+		40582E7C2AD66F720083C653 /* DarkRoomPlayerCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E1B2AD66F720083C653 /* DarkRoomPlayerCommand.swift */; };
+		40582E7D2AD66F720083C653 /* DarkRoomPlayerMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E1C2AD66F720083C653 /* DarkRoomPlayerMediaItem.swift */; };
+		40582E7E2AD66F720083C653 /* DarkRoomPlayerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E1D2AD66F720083C653 /* DarkRoomPlayerMedia.swift */; };
+		40582E7F2AD66F720083C653 /* DarkRoomByteCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E1E2AD66F720083C653 /* DarkRoomByteCount.swift */; };
+		40582E802AD66F720083C653 /* DarkRoomMediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E1F2AD66F720083C653 /* DarkRoomMediaPlayer.swift */; };
+		40582E812AD66F720083C653 /* DarkRoomPlayerCurrentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E202AD66F720083C653 /* DarkRoomPlayerCurrentState.swift */; };
+		40582E822AD66F720083C653 /* DarkRoomTimerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E212AD66F720083C653 /* DarkRoomTimerFactory.swift */; };
+		40582E832AD66F720083C653 /* DarkRoomPlayerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E222AD66F720083C653 /* DarkRoomPlayerConfiguration.swift */; };
+		40582E842AD66F720083C653 /* DarkRoomPlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E232AD66F720083C653 /* DarkRoomPlayerState.swift */; };
+		40582E852AD66F720083C653 /* DarkRoomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E242AD66F720083C653 /* DarkRoomError.swift */; };
+		40582E862AD66F720083C653 /* DarkRoomPlayerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E252AD66F720083C653 /* DarkRoomPlayerContext.swift */; };
+		40582E872AD66F720083C653 /* DarkRoomPlayerStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E262AD66F720083C653 /* DarkRoomPlayerStates.swift */; };
+		40582E882AD66F720083C653 /* AVPlayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E282AD66F720083C653 /* AVPlayer+Extensions.swift */; };
+		40582E892AD66F720083C653 /* CGRect++Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E292AD66F720083C653 /* CGRect++Extensions.swift */; };
+		40582E8A2AD66F720083C653 /* Publisher++Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E2A2AD66F720083C653 /* Publisher++Extension.swift */; };
+		40582E8B2AD66F720083C653 /* AVPlayerItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E2B2AD66F720083C653 /* AVPlayerItem+Extensions.swift */; };
+		40582E8C2AD66F720083C653 /* DarkRoomLoadingMediaState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E2D2AD66F720083C653 /* DarkRoomLoadingMediaState.swift */; };
+		40582E8D2AD66F720083C653 /* DarkRoomLoadedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E2E2AD66F720083C653 /* DarkRoomLoadedState.swift */; };
+		40582E8E2AD66F720083C653 /* DarkRoomPausedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E2F2AD66F720083C653 /* DarkRoomPausedState.swift */; };
+		40582E8F2AD66F720083C653 /* DarkRoomWaitingNetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E302AD66F720083C653 /* DarkRoomWaitingNetworkState.swift */; };
+		40582E902AD66F720083C653 /* DarkRoomFailedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E312AD66F720083C653 /* DarkRoomFailedState.swift */; };
+		40582E912AD66F720083C653 /* DarkRoomInitializeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E322AD66F720083C653 /* DarkRoomInitializeState.swift */; };
+		40582E922AD66F720083C653 /* DarkRoomPlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E332AD66F720083C653 /* DarkRoomPlayingState.swift */; };
+		40582E932AD66F720083C653 /* DarkRoomStoppedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E342AD66F720083C653 /* DarkRoomStoppedState.swift */; };
+		40582E942AD66F720083C653 /* DarkRoomBufferingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E352AD66F720083C653 /* DarkRoomBufferingState.swift */; };
+		40582E952AD66F720083C653 /* DarkRoomStrokeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E382AD66F720083C653 /* DarkRoomStrokeAnimation.swift */; };
+		40582E962AD66F720083C653 /* DarkRoomLoadingShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E392AD66F720083C653 /* DarkRoomLoadingShapeLayer.swift */; };
+		40582E972AD66F720083C653 /* DarkRoomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E3A2AD66F720083C653 /* DarkRoomLoadingView.swift */; };
+		40582E982AD66F720083C653 /* DarkRoomRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E3B2AD66F720083C653 /* DarkRoomRotationAnimation.swift */; };
+		40582E992AD66F720083C653 /* DarkRoomPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E3C2AD66F720083C653 /* DarkRoomPlayerView.swift */; };
+		40582E9A2AD66F720083C653 /* MediaUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E3E2AD66F720083C653 /* MediaUserInfoView.swift */; };
+		40582E9B2AD66F720083C653 /* DarkRoomPlayerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E402AD66F720083C653 /* DarkRoomPlayerSliderView.swift */; };
+		40582E9C2AD66F720083C653 /* DarkRoomPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E412AD66F720083C653 /* DarkRoomPlayerControlView.swift */; };
+		40582E9D2AD66F720083C653 /* DarkRoomPlayerSliderThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E422AD66F720083C653 /* DarkRoomPlayerSliderThumbView.swift */; };
+		40582E9E2AD66F720083C653 /* DarkRoomFailureRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E432AD66F720083C653 /* DarkRoomFailureRepresentableView.swift */; };
+		40582E9F2AD66F720083C653 /* DarkRoomPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E442AD66F720083C653 /* DarkRoomPlayerViewController.swift */; };
+		40582EA02AD66F720083C653 /* DarkRoomAssetResourceLoaderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E462AD66F720083C653 /* DarkRoomAssetResourceLoaderConfiguration.swift */; };
+		40582EA12AD66F720083C653 /* DarkRoomAssetResourceLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E472AD66F720083C653 /* DarkRoomAssetResourceLoaderService.swift */; };
+		40582EA22AD66F720083C653 /* DarkRoomAssetResourceLoaderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E482AD66F720083C653 /* DarkRoomAssetResourceLoaderRequest.swift */; };
+		40582EA32AD66F720083C653 /* DarkRoomPlayerItemInitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E4A2AD66F720083C653 /* DarkRoomPlayerItemInitService.swift */; };
+		40582EA42AD66F720083C653 /* DarkRoomPlayerItemStatusObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E4B2AD66F720083C653 /* DarkRoomPlayerItemStatusObservingService.swift */; };
+		40582EA52AD66F720083C653 /* DarkRoomPlaybackObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E4C2AD66F720083C653 /* DarkRoomPlaybackObservingService.swift */; };
+		40582EA62AD66F720083C653 /* DarkRoomSeekService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E4D2AD66F720083C653 /* DarkRoomSeekService.swift */; };
+		40582EA72AD66F720083C653 /* DarkRoomBufferObserverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E4E2AD66F720083C653 /* DarkRoomBufferObserverService.swift */; };
+		40582EA82AD66F720083C653 /* DarkRoomRateObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E4F2AD66F720083C653 /* DarkRoomRateObservingService.swift */; };
+		40582EA92AD66F720083C653 /* DarkRoomReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E502AD66F720083C653 /* DarkRoomReachabilityService.swift */; };
+		40582EAA2AD66F720083C653 /* DarkRoomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E522AD66F720083C653 /* DarkRoomPlayer.swift */; };
+		40582EAB2AD66F720083C653 /* DarkRoomPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E532AD66F720083C653 /* DarkRoomPlayerDelegate.swift */; };
+		40582EAC2AD66F720083C653 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40582E552AD66F720083C653 /* ColorAssets.xcassets */; };
+		40582EAD2AD66F720083C653 /* DarkRoomBundleToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E562AD66F720083C653 /* DarkRoomBundleToken.swift */; };
+		40582EAE2AD66F720083C653 /* DarkRoomAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E572AD66F720083C653 /* DarkRoomAsset.swift */; };
+		40582EAF2AD66F720083C653 /* DarkRoom++Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E582AD66F720083C653 /* DarkRoom++Images.swift */; };
+		40582EB02AD66F720083C653 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40582E592AD66F720083C653 /* ImageAssets.xcassets */; };
+		40582EB12AD66F720083C653 /* DarkRoom++Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E5A2AD66F720083C653 /* DarkRoom++Colors.swift */; };
+		40582EB22AD66F720083C653 /* DarkRoomImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E5B2AD66F720083C653 /* DarkRoomImageLoader.swift */; };
+		40582EB32AD66F720083C653 /* DarkRoomDummyImageCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E5C2AD66F720083C653 /* DarkRoomDummyImageCreator.swift */; };
+		40582EB42AD66F720083C653 /* DarkRoomCarouselDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E5E2AD66F720083C653 /* DarkRoomCarouselDelegate.swift */; };
+		40582EB52AD66F720083C653 /* DarkRoomCarouselVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E602AD66F720083C653 /* DarkRoomCarouselVideoData.swift */; };
+		40582EB62AD66F720083C653 /* DarkRoomCarouselImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E612AD66F720083C653 /* DarkRoomCarouselImageData.swift */; };
+		40582EB72AD66F720083C653 /* DarkRoomCarouselAbstractData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E622AD66F720083C653 /* DarkRoomCarouselAbstractData.swift */; };
+		40582EB82AD66F720083C653 /* DarkRoomCarouselData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E632AD66F720083C653 /* DarkRoomCarouselData.swift */; };
+		40582EB92AD66F720083C653 /* DarkRoomCarouselDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E642AD66F720083C653 /* DarkRoomCarouselDataSource.swift */; };
+		40582EBA2AD66F720083C653 /* DarkRoomCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E652AD66F720083C653 /* DarkRoomCarouselViewController.swift */; };
+		40582EBB2AD66F720083C653 /* DarkRoomCarouselOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E662AD66F720083C653 /* DarkRoomCarouselOption.swift */; };
+		40582EBC2AD66F720083C653 /* UINavigationBar++Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E682AD66F720083C653 /* UINavigationBar++Extensions.swift */; };
+		40582EBD2AD66F720083C653 /* Optional++Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E692AD66F720083C653 /* Optional++Extensions.swift */; };
+		40582EBE2AD66F720083C653 /* UIView++Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E6A2AD66F720083C653 /* UIView++Extensions.swift */; };
+		40582EBF2AD66F720083C653 /* DarkRoomMediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E6B2AD66F720083C653 /* DarkRoomMediaController.swift */; };
+		40582EC02AD66F720083C653 /* DarkRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E6C2AD66F720083C653 /* DarkRoom.swift */; };
+		40582EC12AD66F720083C653 /* DarkRoomTransitionDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E6E2AD66F720083C653 /* DarkRoomTransitionDismiss.swift */; };
+		40582EC22AD66F720083C653 /* DarkRoomTransitionPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E6F2AD66F720083C653 /* DarkRoomTransitionPresentationManager.swift */; };
+		40582EC32AD66F720083C653 /* DarkRoomTransitionPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E702AD66F720083C653 /* DarkRoomTransitionPresenting.swift */; };
+		40582EC42AD66F720083C653 /* DarkRoom.docc in Sources */ = {isa = PBXBuildFile; fileRef = 40582E712AD66F720083C653 /* DarkRoom.docc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40582DEF2AD66F520083C653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40582DD02AD66F500083C653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40582DD72AD66F500083C653;
+			remoteInfo = DarkRoomTest;
+		};
+		40582DF92AD66F520083C653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40582DD02AD66F500083C653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40582DD72AD66F500083C653;
+			remoteInfo = DarkRoomTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40582DD82AD66F500083C653 /* DarkRoomTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkRoomTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40582DDB2AD66F500083C653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40582DDD2AD66F500083C653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40582DDF2AD66F500083C653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40582DE22AD66F500083C653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40582DE42AD66F520083C653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40582DE72AD66F520083C653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40582DE92AD66F520083C653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40582DEE2AD66F520083C653 /* DarkRoomTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkRoomTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40582DF22AD66F520083C653 /* DarkRoomTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkRoomTestTests.swift; sourceTree = "<group>"; };
+		40582DF82AD66F520083C653 /* DarkRoomTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkRoomTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40582DFC2AD66F520083C653 /* DarkRoomTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkRoomTestUITests.swift; sourceTree = "<group>"; };
+		40582DFE2AD66F520083C653 /* DarkRoomTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkRoomTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40582E0E2AD66F720083C653 /* DarkRoomDummyImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomDummyImageView.swift; sourceTree = "<group>"; };
+		40582E0F2AD66F720083C653 /* DarkRoomImageViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomImageViewerController.swift; sourceTree = "<group>"; };
+		40582E112AD66F720083C653 /* DarkRoomSliderViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomSliderViewConfiguration.swift; sourceTree = "<group>"; };
+		40582E122AD66F720083C653 /* DarkRoomImageControllerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomImageControllerConfiguration.swift; sourceTree = "<group>"; };
+		40582E132AD66F720083C653 /* DarkRoomCarouselConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomCarouselConfiguration.swift; sourceTree = "<group>"; };
+		40582E142AD66F720083C653 /* DarkRoomControlViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomControlViewConfiguration.swift; sourceTree = "<group>"; };
+		40582E152AD66F720083C653 /* DarkRoomVideoPlayerControllerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomVideoPlayerControllerConfiguration.swift; sourceTree = "<group>"; };
+		40582E162AD66F720083C653 /* DarkRoomTimeStatusConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomTimeStatusConfiguration.swift; sourceTree = "<group>"; };
+		40582E172AD66F720083C653 /* DarkRoomThumbViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomThumbViewConfiguration.swift; sourceTree = "<group>"; };
+		40582E182AD66F720083C653 /* DarkRoomLoadingViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomLoadingViewConfiguration.swift; sourceTree = "<group>"; };
+		40582E1B2AD66F720083C653 /* DarkRoomPlayerCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerCommand.swift; sourceTree = "<group>"; };
+		40582E1C2AD66F720083C653 /* DarkRoomPlayerMediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerMediaItem.swift; sourceTree = "<group>"; };
+		40582E1D2AD66F720083C653 /* DarkRoomPlayerMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerMedia.swift; sourceTree = "<group>"; };
+		40582E1E2AD66F720083C653 /* DarkRoomByteCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomByteCount.swift; sourceTree = "<group>"; };
+		40582E1F2AD66F720083C653 /* DarkRoomMediaPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomMediaPlayer.swift; sourceTree = "<group>"; };
+		40582E202AD66F720083C653 /* DarkRoomPlayerCurrentState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerCurrentState.swift; sourceTree = "<group>"; };
+		40582E212AD66F720083C653 /* DarkRoomTimerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomTimerFactory.swift; sourceTree = "<group>"; };
+		40582E222AD66F720083C653 /* DarkRoomPlayerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerConfiguration.swift; sourceTree = "<group>"; };
+		40582E232AD66F720083C653 /* DarkRoomPlayerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerState.swift; sourceTree = "<group>"; };
+		40582E242AD66F720083C653 /* DarkRoomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomError.swift; sourceTree = "<group>"; };
+		40582E252AD66F720083C653 /* DarkRoomPlayerContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerContext.swift; sourceTree = "<group>"; };
+		40582E262AD66F720083C653 /* DarkRoomPlayerStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerStates.swift; sourceTree = "<group>"; };
+		40582E282AD66F720083C653 /* AVPlayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Extensions.swift"; sourceTree = "<group>"; };
+		40582E292AD66F720083C653 /* CGRect++Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect++Extensions.swift"; sourceTree = "<group>"; };
+		40582E2A2AD66F720083C653 /* Publisher++Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher++Extension.swift"; sourceTree = "<group>"; };
+		40582E2B2AD66F720083C653 /* AVPlayerItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayerItem+Extensions.swift"; sourceTree = "<group>"; };
+		40582E2D2AD66F720083C653 /* DarkRoomLoadingMediaState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomLoadingMediaState.swift; sourceTree = "<group>"; };
+		40582E2E2AD66F720083C653 /* DarkRoomLoadedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomLoadedState.swift; sourceTree = "<group>"; };
+		40582E2F2AD66F720083C653 /* DarkRoomPausedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPausedState.swift; sourceTree = "<group>"; };
+		40582E302AD66F720083C653 /* DarkRoomWaitingNetworkState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomWaitingNetworkState.swift; sourceTree = "<group>"; };
+		40582E312AD66F720083C653 /* DarkRoomFailedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomFailedState.swift; sourceTree = "<group>"; };
+		40582E322AD66F720083C653 /* DarkRoomInitializeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomInitializeState.swift; sourceTree = "<group>"; };
+		40582E332AD66F720083C653 /* DarkRoomPlayingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayingState.swift; sourceTree = "<group>"; };
+		40582E342AD66F720083C653 /* DarkRoomStoppedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomStoppedState.swift; sourceTree = "<group>"; };
+		40582E352AD66F720083C653 /* DarkRoomBufferingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomBufferingState.swift; sourceTree = "<group>"; };
+		40582E382AD66F720083C653 /* DarkRoomStrokeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomStrokeAnimation.swift; sourceTree = "<group>"; };
+		40582E392AD66F720083C653 /* DarkRoomLoadingShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomLoadingShapeLayer.swift; sourceTree = "<group>"; };
+		40582E3A2AD66F720083C653 /* DarkRoomLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomLoadingView.swift; sourceTree = "<group>"; };
+		40582E3B2AD66F720083C653 /* DarkRoomRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomRotationAnimation.swift; sourceTree = "<group>"; };
+		40582E3C2AD66F720083C653 /* DarkRoomPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerView.swift; sourceTree = "<group>"; };
+		40582E3E2AD66F720083C653 /* MediaUserInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaUserInfoView.swift; sourceTree = "<group>"; };
+		40582E402AD66F720083C653 /* DarkRoomPlayerSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerSliderView.swift; sourceTree = "<group>"; };
+		40582E412AD66F720083C653 /* DarkRoomPlayerControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerControlView.swift; sourceTree = "<group>"; };
+		40582E422AD66F720083C653 /* DarkRoomPlayerSliderThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerSliderThumbView.swift; sourceTree = "<group>"; };
+		40582E432AD66F720083C653 /* DarkRoomFailureRepresentableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomFailureRepresentableView.swift; sourceTree = "<group>"; };
+		40582E442AD66F720083C653 /* DarkRoomPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerViewController.swift; sourceTree = "<group>"; };
+		40582E462AD66F720083C653 /* DarkRoomAssetResourceLoaderConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomAssetResourceLoaderConfiguration.swift; sourceTree = "<group>"; };
+		40582E472AD66F720083C653 /* DarkRoomAssetResourceLoaderService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomAssetResourceLoaderService.swift; sourceTree = "<group>"; };
+		40582E482AD66F720083C653 /* DarkRoomAssetResourceLoaderRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomAssetResourceLoaderRequest.swift; sourceTree = "<group>"; };
+		40582E4A2AD66F720083C653 /* DarkRoomPlayerItemInitService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerItemInitService.swift; sourceTree = "<group>"; };
+		40582E4B2AD66F720083C653 /* DarkRoomPlayerItemStatusObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerItemStatusObservingService.swift; sourceTree = "<group>"; };
+		40582E4C2AD66F720083C653 /* DarkRoomPlaybackObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlaybackObservingService.swift; sourceTree = "<group>"; };
+		40582E4D2AD66F720083C653 /* DarkRoomSeekService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomSeekService.swift; sourceTree = "<group>"; };
+		40582E4E2AD66F720083C653 /* DarkRoomBufferObserverService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomBufferObserverService.swift; sourceTree = "<group>"; };
+		40582E4F2AD66F720083C653 /* DarkRoomRateObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomRateObservingService.swift; sourceTree = "<group>"; };
+		40582E502AD66F720083C653 /* DarkRoomReachabilityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomReachabilityService.swift; sourceTree = "<group>"; };
+		40582E522AD66F720083C653 /* DarkRoomPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayer.swift; sourceTree = "<group>"; };
+		40582E532AD66F720083C653 /* DarkRoomPlayerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomPlayerDelegate.swift; sourceTree = "<group>"; };
+		40582E552AD66F720083C653 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		40582E562AD66F720083C653 /* DarkRoomBundleToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomBundleToken.swift; sourceTree = "<group>"; };
+		40582E572AD66F720083C653 /* DarkRoomAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomAsset.swift; sourceTree = "<group>"; };
+		40582E582AD66F720083C653 /* DarkRoom++Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DarkRoom++Images.swift"; sourceTree = "<group>"; };
+		40582E592AD66F720083C653 /* ImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAssets.xcassets; sourceTree = "<group>"; };
+		40582E5A2AD66F720083C653 /* DarkRoom++Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DarkRoom++Colors.swift"; sourceTree = "<group>"; };
+		40582E5B2AD66F720083C653 /* DarkRoomImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomImageLoader.swift; sourceTree = "<group>"; };
+		40582E5C2AD66F720083C653 /* DarkRoomDummyImageCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomDummyImageCreator.swift; sourceTree = "<group>"; };
+		40582E5E2AD66F720083C653 /* DarkRoomCarouselDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomCarouselDelegate.swift; sourceTree = "<group>"; };
+		40582E602AD66F720083C653 /* DarkRoomCarouselVideoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomCarouselVideoData.swift; sourceTree = "<group>"; };
+		40582E612AD66F720083C653 /* DarkRoomCarouselImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomCarouselImageData.swift; sourceTree = "<group>"; };
+		40582E622AD66F720083C653 /* DarkRoomCarouselAbstractData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomCarouselAbstractData.swift; sourceTree = "<group>"; };
+		40582E632AD66F720083C653 /* DarkRoomCarouselData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomCarouselData.swift; sourceTree = "<group>"; };
+		40582E642AD66F720083C653 /* DarkRoomCarouselDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomCarouselDataSource.swift; sourceTree = "<group>"; };
+		40582E652AD66F720083C653 /* DarkRoomCarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomCarouselViewController.swift; sourceTree = "<group>"; };
+		40582E662AD66F720083C653 /* DarkRoomCarouselOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomCarouselOption.swift; sourceTree = "<group>"; };
+		40582E682AD66F720083C653 /* UINavigationBar++Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar++Extensions.swift"; sourceTree = "<group>"; };
+		40582E692AD66F720083C653 /* Optional++Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional++Extensions.swift"; sourceTree = "<group>"; };
+		40582E6A2AD66F720083C653 /* UIView++Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView++Extensions.swift"; sourceTree = "<group>"; };
+		40582E6B2AD66F720083C653 /* DarkRoomMediaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomMediaController.swift; sourceTree = "<group>"; };
+		40582E6C2AD66F720083C653 /* DarkRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoom.swift; sourceTree = "<group>"; };
+		40582E6E2AD66F720083C653 /* DarkRoomTransitionDismiss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomTransitionDismiss.swift; sourceTree = "<group>"; };
+		40582E6F2AD66F720083C653 /* DarkRoomTransitionPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomTransitionPresentationManager.swift; sourceTree = "<group>"; };
+		40582E702AD66F720083C653 /* DarkRoomTransitionPresenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomTransitionPresenting.swift; sourceTree = "<group>"; };
+		40582E712AD66F720083C653 /* DarkRoom.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DarkRoom.docc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40582DD52AD66F500083C653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40582DEB2AD66F520083C653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40582DF52AD66F520083C653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40582DCF2AD66F500083C653 = {
+			isa = PBXGroup;
+			children = (
+				40582E0B2AD66F720083C653 /* Sources */,
+				40582DDA2AD66F500083C653 /* DarkRoomTest */,
+				40582DF12AD66F520083C653 /* DarkRoomTestTests */,
+				40582DFB2AD66F520083C653 /* DarkRoomTestUITests */,
+				40582DD92AD66F500083C653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40582DD92AD66F500083C653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40582DD82AD66F500083C653 /* DarkRoomTest.app */,
+				40582DEE2AD66F520083C653 /* DarkRoomTestTests.xctest */,
+				40582DF82AD66F520083C653 /* DarkRoomTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40582DDA2AD66F500083C653 /* DarkRoomTest */ = {
+			isa = PBXGroup;
+			children = (
+				40582DDB2AD66F500083C653 /* AppDelegate.swift */,
+				40582DDD2AD66F500083C653 /* SceneDelegate.swift */,
+				40582DDF2AD66F500083C653 /* ViewController.swift */,
+				40582DE12AD66F500083C653 /* Main.storyboard */,
+				40582DE42AD66F520083C653 /* Assets.xcassets */,
+				40582DE62AD66F520083C653 /* LaunchScreen.storyboard */,
+				40582DE92AD66F520083C653 /* Info.plist */,
+			);
+			path = DarkRoomTest;
+			sourceTree = "<group>";
+		};
+		40582DF12AD66F520083C653 /* DarkRoomTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				40582DF22AD66F520083C653 /* DarkRoomTestTests.swift */,
+			);
+			path = DarkRoomTestTests;
+			sourceTree = "<group>";
+		};
+		40582DFB2AD66F520083C653 /* DarkRoomTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40582DFC2AD66F520083C653 /* DarkRoomTestUITests.swift */,
+				40582DFE2AD66F520083C653 /* DarkRoomTestUITestsLaunchTests.swift */,
+			);
+			path = DarkRoomTestUITests;
+			sourceTree = "<group>";
+		};
+		40582E0B2AD66F720083C653 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				40582E0C2AD66F720083C653 /* DarkRoom */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		40582E0C2AD66F720083C653 /* DarkRoom */ = {
+			isa = PBXGroup;
+			children = (
+				40582E0D2AD66F720083C653 /* ImageView */,
+				40582E102AD66F720083C653 /* Configuraion */,
+				40582E192AD66F720083C653 /* VideoPlayer */,
+				40582E542AD66F720083C653 /* Resources */,
+				40582E5B2AD66F720083C653 /* DarkRoomImageLoader.swift */,
+				40582E5C2AD66F720083C653 /* DarkRoomDummyImageCreator.swift */,
+				40582E5D2AD66F720083C653 /* Carousel */,
+				40582E672AD66F720083C653 /* Extensions */,
+				40582E6B2AD66F720083C653 /* DarkRoomMediaController.swift */,
+				40582E6C2AD66F720083C653 /* DarkRoom.swift */,
+				40582E6D2AD66F720083C653 /* Transitions */,
+				40582E712AD66F720083C653 /* DarkRoom.docc */,
+			);
+			path = DarkRoom;
+			sourceTree = "<group>";
+		};
+		40582E0D2AD66F720083C653 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				40582E0E2AD66F720083C653 /* DarkRoomDummyImageView.swift */,
+				40582E0F2AD66F720083C653 /* DarkRoomImageViewerController.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		40582E102AD66F720083C653 /* Configuraion */ = {
+			isa = PBXGroup;
+			children = (
+				40582E112AD66F720083C653 /* DarkRoomSliderViewConfiguration.swift */,
+				40582E122AD66F720083C653 /* DarkRoomImageControllerConfiguration.swift */,
+				40582E132AD66F720083C653 /* DarkRoomCarouselConfiguration.swift */,
+				40582E142AD66F720083C653 /* DarkRoomControlViewConfiguration.swift */,
+				40582E152AD66F720083C653 /* DarkRoomVideoPlayerControllerConfiguration.swift */,
+				40582E162AD66F720083C653 /* DarkRoomTimeStatusConfiguration.swift */,
+				40582E172AD66F720083C653 /* DarkRoomThumbViewConfiguration.swift */,
+				40582E182AD66F720083C653 /* DarkRoomLoadingViewConfiguration.swift */,
+			);
+			path = Configuraion;
+			sourceTree = "<group>";
+		};
+		40582E192AD66F720083C653 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				40582E1A2AD66F720083C653 /* Core */,
+				40582E272AD66F720083C653 /* Extensions */,
+				40582E2C2AD66F720083C653 /* States */,
+				40582E362AD66F720083C653 /* Views */,
+				40582E452AD66F720083C653 /* AssetResourceLoading */,
+				40582E492AD66F720083C653 /* Services */,
+				40582E512AD66F720083C653 /* Player */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		40582E1A2AD66F720083C653 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				40582E1B2AD66F720083C653 /* DarkRoomPlayerCommand.swift */,
+				40582E1C2AD66F720083C653 /* DarkRoomPlayerMediaItem.swift */,
+				40582E1D2AD66F720083C653 /* DarkRoomPlayerMedia.swift */,
+				40582E1E2AD66F720083C653 /* DarkRoomByteCount.swift */,
+				40582E1F2AD66F720083C653 /* DarkRoomMediaPlayer.swift */,
+				40582E202AD66F720083C653 /* DarkRoomPlayerCurrentState.swift */,
+				40582E212AD66F720083C653 /* DarkRoomTimerFactory.swift */,
+				40582E222AD66F720083C653 /* DarkRoomPlayerConfiguration.swift */,
+				40582E232AD66F720083C653 /* DarkRoomPlayerState.swift */,
+				40582E242AD66F720083C653 /* DarkRoomError.swift */,
+				40582E252AD66F720083C653 /* DarkRoomPlayerContext.swift */,
+				40582E262AD66F720083C653 /* DarkRoomPlayerStates.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		40582E272AD66F720083C653 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40582E282AD66F720083C653 /* AVPlayer+Extensions.swift */,
+				40582E292AD66F720083C653 /* CGRect++Extensions.swift */,
+				40582E2A2AD66F720083C653 /* Publisher++Extension.swift */,
+				40582E2B2AD66F720083C653 /* AVPlayerItem+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40582E2C2AD66F720083C653 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				40582E2D2AD66F720083C653 /* DarkRoomLoadingMediaState.swift */,
+				40582E2E2AD66F720083C653 /* DarkRoomLoadedState.swift */,
+				40582E2F2AD66F720083C653 /* DarkRoomPausedState.swift */,
+				40582E302AD66F720083C653 /* DarkRoomWaitingNetworkState.swift */,
+				40582E312AD66F720083C653 /* DarkRoomFailedState.swift */,
+				40582E322AD66F720083C653 /* DarkRoomInitializeState.swift */,
+				40582E332AD66F720083C653 /* DarkRoomPlayingState.swift */,
+				40582E342AD66F720083C653 /* DarkRoomStoppedState.swift */,
+				40582E352AD66F720083C653 /* DarkRoomBufferingState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		40582E362AD66F720083C653 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40582E372AD66F720083C653 /* LoadingView */,
+				40582E3C2AD66F720083C653 /* DarkRoomPlayerView.swift */,
+				40582E3D2AD66F720083C653 /* Info */,
+				40582E3F2AD66F720083C653 /* Controls */,
+				40582E432AD66F720083C653 /* DarkRoomFailureRepresentableView.swift */,
+				40582E442AD66F720083C653 /* DarkRoomPlayerViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40582E372AD66F720083C653 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				40582E382AD66F720083C653 /* DarkRoomStrokeAnimation.swift */,
+				40582E392AD66F720083C653 /* DarkRoomLoadingShapeLayer.swift */,
+				40582E3A2AD66F720083C653 /* DarkRoomLoadingView.swift */,
+				40582E3B2AD66F720083C653 /* DarkRoomRotationAnimation.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		40582E3D2AD66F720083C653 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				40582E3E2AD66F720083C653 /* MediaUserInfoView.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		40582E3F2AD66F720083C653 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				40582E402AD66F720083C653 /* DarkRoomPlayerSliderView.swift */,
+				40582E412AD66F720083C653 /* DarkRoomPlayerControlView.swift */,
+				40582E422AD66F720083C653 /* DarkRoomPlayerSliderThumbView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		40582E452AD66F720083C653 /* AssetResourceLoading */ = {
+			isa = PBXGroup;
+			children = (
+				40582E462AD66F720083C653 /* DarkRoomAssetResourceLoaderConfiguration.swift */,
+				40582E472AD66F720083C653 /* DarkRoomAssetResourceLoaderService.swift */,
+				40582E482AD66F720083C653 /* DarkRoomAssetResourceLoaderRequest.swift */,
+			);
+			path = AssetResourceLoading;
+			sourceTree = "<group>";
+		};
+		40582E492AD66F720083C653 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				40582E4A2AD66F720083C653 /* DarkRoomPlayerItemInitService.swift */,
+				40582E4B2AD66F720083C653 /* DarkRoomPlayerItemStatusObservingService.swift */,
+				40582E4C2AD66F720083C653 /* DarkRoomPlaybackObservingService.swift */,
+				40582E4D2AD66F720083C653 /* DarkRoomSeekService.swift */,
+				40582E4E2AD66F720083C653 /* DarkRoomBufferObserverService.swift */,
+				40582E4F2AD66F720083C653 /* DarkRoomRateObservingService.swift */,
+				40582E502AD66F720083C653 /* DarkRoomReachabilityService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		40582E512AD66F720083C653 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				40582E522AD66F720083C653 /* DarkRoomPlayer.swift */,
+				40582E532AD66F720083C653 /* DarkRoomPlayerDelegate.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		40582E542AD66F720083C653 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40582E552AD66F720083C653 /* ColorAssets.xcassets */,
+				40582E562AD66F720083C653 /* DarkRoomBundleToken.swift */,
+				40582E572AD66F720083C653 /* DarkRoomAsset.swift */,
+				40582E582AD66F720083C653 /* DarkRoom++Images.swift */,
+				40582E592AD66F720083C653 /* ImageAssets.xcassets */,
+				40582E5A2AD66F720083C653 /* DarkRoom++Colors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40582E5D2AD66F720083C653 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				40582E5E2AD66F720083C653 /* DarkRoomCarouselDelegate.swift */,
+				40582E5F2AD66F720083C653 /* DarkRoomCarouselData */,
+				40582E642AD66F720083C653 /* DarkRoomCarouselDataSource.swift */,
+				40582E652AD66F720083C653 /* DarkRoomCarouselViewController.swift */,
+				40582E662AD66F720083C653 /* DarkRoomCarouselOption.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		40582E5F2AD66F720083C653 /* DarkRoomCarouselData */ = {
+			isa = PBXGroup;
+			children = (
+				40582E602AD66F720083C653 /* DarkRoomCarouselVideoData.swift */,
+				40582E612AD66F720083C653 /* DarkRoomCarouselImageData.swift */,
+				40582E622AD66F720083C653 /* DarkRoomCarouselAbstractData.swift */,
+				40582E632AD66F720083C653 /* DarkRoomCarouselData.swift */,
+			);
+			path = DarkRoomCarouselData;
+			sourceTree = "<group>";
+		};
+		40582E672AD66F720083C653 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40582E682AD66F720083C653 /* UINavigationBar++Extensions.swift */,
+				40582E692AD66F720083C653 /* Optional++Extensions.swift */,
+				40582E6A2AD66F720083C653 /* UIView++Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40582E6D2AD66F720083C653 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				40582E6E2AD66F720083C653 /* DarkRoomTransitionDismiss.swift */,
+				40582E6F2AD66F720083C653 /* DarkRoomTransitionPresentationManager.swift */,
+				40582E702AD66F720083C653 /* DarkRoomTransitionPresenting.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40582DD72AD66F500083C653 /* DarkRoomTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40582E022AD66F520083C653 /* Build configuration list for PBXNativeTarget "DarkRoomTest" */;
+			buildPhases = (
+				40582DD42AD66F500083C653 /* Sources */,
+				40582DD52AD66F500083C653 /* Frameworks */,
+				40582DD62AD66F500083C653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkRoomTest;
+			productName = DarkRoomTest;
+			productReference = 40582DD82AD66F500083C653 /* DarkRoomTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40582DED2AD66F520083C653 /* DarkRoomTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40582E052AD66F520083C653 /* Build configuration list for PBXNativeTarget "DarkRoomTestTests" */;
+			buildPhases = (
+				40582DEA2AD66F520083C653 /* Sources */,
+				40582DEB2AD66F520083C653 /* Frameworks */,
+				40582DEC2AD66F520083C653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40582DF02AD66F520083C653 /* PBXTargetDependency */,
+			);
+			name = DarkRoomTestTests;
+			productName = DarkRoomTestTests;
+			productReference = 40582DEE2AD66F520083C653 /* DarkRoomTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40582DF72AD66F520083C653 /* DarkRoomTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40582E082AD66F520083C653 /* Build configuration list for PBXNativeTarget "DarkRoomTestUITests" */;
+			buildPhases = (
+				40582DF42AD66F520083C653 /* Sources */,
+				40582DF52AD66F520083C653 /* Frameworks */,
+				40582DF62AD66F520083C653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40582DFA2AD66F520083C653 /* PBXTargetDependency */,
+			);
+			name = DarkRoomTestUITests;
+			productName = DarkRoomTestUITests;
+			productReference = 40582DF82AD66F520083C653 /* DarkRoomTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40582DD02AD66F500083C653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					40582DD72AD66F500083C653 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					40582DED2AD66F520083C653 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 40582DD72AD66F500083C653;
+					};
+					40582DF72AD66F520083C653 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 40582DD72AD66F500083C653;
+					};
+				};
+			};
+			buildConfigurationList = 40582DD32AD66F500083C653 /* Build configuration list for PBXProject "DarkRoomTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40582DCF2AD66F500083C653;
+			productRefGroup = 40582DD92AD66F500083C653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40582DD72AD66F500083C653 /* DarkRoomTest */,
+				40582DED2AD66F520083C653 /* DarkRoomTestTests */,
+				40582DF72AD66F520083C653 /* DarkRoomTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40582DD62AD66F500083C653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40582DE82AD66F520083C653 /* LaunchScreen.storyboard in Resources */,
+				40582DE52AD66F520083C653 /* Assets.xcassets in Resources */,
+				40582EAC2AD66F720083C653 /* ColorAssets.xcassets in Resources */,
+				40582DE32AD66F500083C653 /* Main.storyboard in Resources */,
+				40582EB02AD66F720083C653 /* ImageAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40582DEC2AD66F520083C653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40582DF62AD66F520083C653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40582DD42AD66F500083C653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40582E992AD66F720083C653 /* DarkRoomPlayerView.swift in Sources */,
+				40582E7E2AD66F720083C653 /* DarkRoomPlayerMedia.swift in Sources */,
+				40582EAE2AD66F720083C653 /* DarkRoomAsset.swift in Sources */,
+				40582EA22AD66F720083C653 /* DarkRoomAssetResourceLoaderRequest.swift in Sources */,
+				40582E972AD66F720083C653 /* DarkRoomLoadingView.swift in Sources */,
+				40582E832AD66F720083C653 /* DarkRoomPlayerConfiguration.swift in Sources */,
+				40582EBD2AD66F720083C653 /* Optional++Extensions.swift in Sources */,
+				40582EA72AD66F720083C653 /* DarkRoomBufferObserverService.swift in Sources */,
+				40582EA92AD66F720083C653 /* DarkRoomReachabilityService.swift in Sources */,
+				40582EB72AD66F720083C653 /* DarkRoomCarouselAbstractData.swift in Sources */,
+				40582E8A2AD66F720083C653 /* Publisher++Extension.swift in Sources */,
+				40582E722AD66F720083C653 /* DarkRoomDummyImageView.swift in Sources */,
+				40582E9F2AD66F720083C653 /* DarkRoomPlayerViewController.swift in Sources */,
+				40582E812AD66F720083C653 /* DarkRoomPlayerCurrentState.swift in Sources */,
+				40582EA32AD66F720083C653 /* DarkRoomPlayerItemInitService.swift in Sources */,
+				40582E7C2AD66F720083C653 /* DarkRoomPlayerCommand.swift in Sources */,
+				40582EC32AD66F720083C653 /* DarkRoomTransitionPresenting.swift in Sources */,
+				40582EBC2AD66F720083C653 /* UINavigationBar++Extensions.swift in Sources */,
+				40582E9A2AD66F720083C653 /* MediaUserInfoView.swift in Sources */,
+				40582E7A2AD66F720083C653 /* DarkRoomThumbViewConfiguration.swift in Sources */,
+				40582E942AD66F720083C653 /* DarkRoomBufferingState.swift in Sources */,
+				40582EB22AD66F720083C653 /* DarkRoomImageLoader.swift in Sources */,
+				40582E742AD66F720083C653 /* DarkRoomSliderViewConfiguration.swift in Sources */,
+				40582EA02AD66F720083C653 /* DarkRoomAssetResourceLoaderConfiguration.swift in Sources */,
+				40582E9B2AD66F720083C653 /* DarkRoomPlayerSliderView.swift in Sources */,
+				40582EAA2AD66F720083C653 /* DarkRoomPlayer.swift in Sources */,
+				40582EA12AD66F720083C653 /* DarkRoomAssetResourceLoaderService.swift in Sources */,
+				40582EBF2AD66F720083C653 /* DarkRoomMediaController.swift in Sources */,
+				40582E772AD66F720083C653 /* DarkRoomControlViewConfiguration.swift in Sources */,
+				40582E802AD66F720083C653 /* DarkRoomMediaPlayer.swift in Sources */,
+				40582E882AD66F720083C653 /* AVPlayer+Extensions.swift in Sources */,
+				40582E932AD66F720083C653 /* DarkRoomStoppedState.swift in Sources */,
+				40582DE02AD66F500083C653 /* ViewController.swift in Sources */,
+				40582E872AD66F720083C653 /* DarkRoomPlayerStates.swift in Sources */,
+				40582EBE2AD66F720083C653 /* UIView++Extensions.swift in Sources */,
+				40582EA42AD66F720083C653 /* DarkRoomPlayerItemStatusObservingService.swift in Sources */,
+				40582E902AD66F720083C653 /* DarkRoomFailedState.swift in Sources */,
+				40582E762AD66F720083C653 /* DarkRoomCarouselConfiguration.swift in Sources */,
+				40582E7D2AD66F720083C653 /* DarkRoomPlayerMediaItem.swift in Sources */,
+				40582E982AD66F720083C653 /* DarkRoomRotationAnimation.swift in Sources */,
+				40582DDC2AD66F500083C653 /* AppDelegate.swift in Sources */,
+				40582EA52AD66F720083C653 /* DarkRoomPlaybackObservingService.swift in Sources */,
+				40582EC22AD66F720083C653 /* DarkRoomTransitionPresentationManager.swift in Sources */,
+				40582EC42AD66F720083C653 /* DarkRoom.docc in Sources */,
+				40582E8B2AD66F720083C653 /* AVPlayerItem+Extensions.swift in Sources */,
+				40582E842AD66F720083C653 /* DarkRoomPlayerState.swift in Sources */,
+				40582EB92AD66F720083C653 /* DarkRoomCarouselDataSource.swift in Sources */,
+				40582E962AD66F720083C653 /* DarkRoomLoadingShapeLayer.swift in Sources */,
+				40582E7B2AD66F720083C653 /* DarkRoomLoadingViewConfiguration.swift in Sources */,
+				40582E9C2AD66F720083C653 /* DarkRoomPlayerControlView.swift in Sources */,
+				40582EA62AD66F720083C653 /* DarkRoomSeekService.swift in Sources */,
+				40582E862AD66F720083C653 /* DarkRoomPlayerContext.swift in Sources */,
+				40582EBB2AD66F720083C653 /* DarkRoomCarouselOption.swift in Sources */,
+				40582E7F2AD66F720083C653 /* DarkRoomByteCount.swift in Sources */,
+				40582EA82AD66F720083C653 /* DarkRoomRateObservingService.swift in Sources */,
+				40582E9E2AD66F720083C653 /* DarkRoomFailureRepresentableView.swift in Sources */,
+				40582EAD2AD66F720083C653 /* DarkRoomBundleToken.swift in Sources */,
+				40582E782AD66F720083C653 /* DarkRoomVideoPlayerControllerConfiguration.swift in Sources */,
+				40582EB12AD66F720083C653 /* DarkRoom++Colors.swift in Sources */,
+				40582EC12AD66F720083C653 /* DarkRoomTransitionDismiss.swift in Sources */,
+				40582EC02AD66F720083C653 /* DarkRoom.swift in Sources */,
+				40582E8E2AD66F720083C653 /* DarkRoomPausedState.swift in Sources */,
+				40582E912AD66F720083C653 /* DarkRoomInitializeState.swift in Sources */,
+				40582E792AD66F720083C653 /* DarkRoomTimeStatusConfiguration.swift in Sources */,
+				40582EB62AD66F720083C653 /* DarkRoomCarouselImageData.swift in Sources */,
+				40582EB52AD66F720083C653 /* DarkRoomCarouselVideoData.swift in Sources */,
+				40582E732AD66F720083C653 /* DarkRoomImageViewerController.swift in Sources */,
+				40582E9D2AD66F720083C653 /* DarkRoomPlayerSliderThumbView.swift in Sources */,
+				40582E8C2AD66F720083C653 /* DarkRoomLoadingMediaState.swift in Sources */,
+				40582E822AD66F720083C653 /* DarkRoomTimerFactory.swift in Sources */,
+				40582E8D2AD66F720083C653 /* DarkRoomLoadedState.swift in Sources */,
+				40582EB82AD66F720083C653 /* DarkRoomCarouselData.swift in Sources */,
+				40582E852AD66F720083C653 /* DarkRoomError.swift in Sources */,
+				40582EAB2AD66F720083C653 /* DarkRoomPlayerDelegate.swift in Sources */,
+				40582E8F2AD66F720083C653 /* DarkRoomWaitingNetworkState.swift in Sources */,
+				40582DDE2AD66F500083C653 /* SceneDelegate.swift in Sources */,
+				40582E922AD66F720083C653 /* DarkRoomPlayingState.swift in Sources */,
+				40582EAF2AD66F720083C653 /* DarkRoom++Images.swift in Sources */,
+				40582EB32AD66F720083C653 /* DarkRoomDummyImageCreator.swift in Sources */,
+				40582E892AD66F720083C653 /* CGRect++Extensions.swift in Sources */,
+				40582EB42AD66F720083C653 /* DarkRoomCarouselDelegate.swift in Sources */,
+				40582EBA2AD66F720083C653 /* DarkRoomCarouselViewController.swift in Sources */,
+				40582E752AD66F720083C653 /* DarkRoomImageControllerConfiguration.swift in Sources */,
+				40582E952AD66F720083C653 /* DarkRoomStrokeAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40582DEA2AD66F520083C653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40582DF32AD66F520083C653 /* DarkRoomTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40582DF42AD66F520083C653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40582DFD2AD66F520083C653 /* DarkRoomTestUITests.swift in Sources */,
+				40582DFF2AD66F520083C653 /* DarkRoomTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40582DF02AD66F520083C653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40582DD72AD66F500083C653 /* DarkRoomTest */;
+			targetProxy = 40582DEF2AD66F520083C653 /* PBXContainerItemProxy */;
+		};
+		40582DFA2AD66F520083C653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40582DD72AD66F500083C653 /* DarkRoomTest */;
+			targetProxy = 40582DF92AD66F520083C653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40582DE12AD66F500083C653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40582DE22AD66F500083C653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40582DE62AD66F520083C653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40582DE72AD66F520083C653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40582E002AD66F520083C653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40582E012AD66F520083C653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40582E032AD66F520083C653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKHLVMJ7GL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DarkRoomTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exodusent.DarkRoomTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40582E042AD66F520083C653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKHLVMJ7GL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DarkRoomTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exodusent.DarkRoomTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40582E062AD66F520083C653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKHLVMJ7GL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exodusent.DarkRoomTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkRoomTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarkRoomTest";
+			};
+			name = Debug;
+		};
+		40582E072AD66F520083C653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKHLVMJ7GL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exodusent.DarkRoomTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkRoomTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarkRoomTest";
+			};
+			name = Release;
+		};
+		40582E092AD66F520083C653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKHLVMJ7GL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exodusent.DarkRoomTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarkRoomTest;
+			};
+			name = Debug;
+		};
+		40582E0A2AD66F520083C653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKHLVMJ7GL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exodusent.DarkRoomTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarkRoomTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40582DD32AD66F500083C653 /* Build configuration list for PBXProject "DarkRoomTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40582E002AD66F520083C653 /* Debug */,
+				40582E012AD66F520083C653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40582E022AD66F520083C653 /* Build configuration list for PBXNativeTarget "DarkRoomTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40582E032AD66F520083C653 /* Debug */,
+				40582E042AD66F520083C653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40582E052AD66F520083C653 /* Build configuration list for PBXNativeTarget "DarkRoomTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40582E062AD66F520083C653 /* Debug */,
+				40582E072AD66F520083C653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40582E082AD66F520083C653 /* Build configuration list for PBXNativeTarget "DarkRoomTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40582E092AD66F520083C653 /* Debug */,
+				40582E0A2AD66F520083C653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40582DD02AD66F500083C653 /* Project object */;
+}

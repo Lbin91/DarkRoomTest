@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2E018271-C211-4656-8AC8-7FAF83220560"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "987F5C4D-3B25-4FBA-9A9B-5828F226FEFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CCCBABC-442A-4A7D-8B2C-3B40659D1281"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DarkRoomTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "assetData(at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CCCBABC-442A-4A7D-8B2C-3B40659D1281 - b34c4137769081d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1552">
+               </Location>
+               <Location
+                  uuid = "6CCCBABC-442A-4A7D-8B2C-3B40659D1281 - b34c4137769081d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1272">
+               </Location>
+               <Location
+                  uuid = "6CCCBABC-442A-4A7D-8B2C-3B40659D1281 - b34c4137769081d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77E6186E-361D-45FF-8822-22E908DEEC80"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DarkRoomTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "assetData(at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "77E6186E-361D-45FF-8822-22E908DEEC80 - b34c413776908109"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2016">
+               </Location>
+               <Location
+                  uuid = "77E6186E-361D-45FF-8822-22E908DEEC80 - b34c413776908109"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2277527E-299F-4000-859B-71B892377D2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DarkRoomTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "assetData(at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2277527E-299F-4000-859B-71B892377D2E - b34c413776908eaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "2324">
+               </Location>
+               <Location
+                  uuid = "2277527E-299F-4000-859B-71B892377D2E - b34c413776908eaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "2036">
+               </Location>
+               <Location
+                  uuid = "2277527E-299F-4000-859B-71B892377D2E - b34c413776908eaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "2204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "136EB530-9042-4958-AEEB-D3EB804095DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DarkRoomTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "numberOfAssets()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C2B74E0-45BE-45E2-9F74-EFEE43616EC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DarkRoomTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "imageView(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A3F4AA4-55B6-46C1-88A6-611EFA97E48B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DarkRoomTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "overlayImageView(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A47FD625-A8F3-4435-965F-A187BE7123A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/ImageView/DarkRoomImageViewerController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B81799A-B088-4402-9BFD-BB5EFA0ED8F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "setupInitialDataSource()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BF6979F-7324-4FD3-AC86-FD779E8E4D88"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "setupInitialDataSource()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32CFB5BC-6172-4B46-937B-D41D428B8F4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DarkRoomTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "assetData(at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "32CFB5BC-6172-4B46-937B-D41D428B8F4F - b34c413776908177"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1692">
+               </Location>
+               <Location
+                  uuid = "32CFB5BC-6172-4B46-937B-D41D428B8F4F - b34c413776908194"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.ViewController.assetData(at: Swift.Int) -&gt; DarkRoomTest.DarkRoomCarouselData"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/DarkRoomTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1552">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8588529-57D9-40BE-8D39-B2D357B66C6C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/ImageView/DarkRoomImageViewerController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "updateAlpha()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "059B5966-9F82-4378-ADAB-999CA2F1D8EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "navBar"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "059B5966-9F82-4378-ADAB-999CA2F1D8EC - 5c008fcfc0a80f78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIView in DarkRoomTest.DarkRoomCarouselViewController.navBar.getter : __C.UIView"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "1272">
+               </Location>
+               <Location
+                  uuid = "059B5966-9F82-4378-ADAB-999CA2F1D8EC - 5c008fcfc0a80f78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIView in DarkRoomTest.DarkRoomCarouselViewController.navBar.getter : __C.UIView"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "1116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14522815-0F66-46C1-9275-0CFEC860815A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "setupInitialDataSource()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14522815-0F66-46C1-9275-0CFEC860815A - 294b83b5a9320493"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.DarkRoomCarouselViewController.setupInitialDataSource() -&gt; ()"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "1752">
+               </Location>
+               <Location
+                  uuid = "14522815-0F66-46C1-9275-0CFEC860815A - 294b83b5a9320493"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DarkRoomTest.DarkRoomCarouselViewController.setupInitialDataSource() -&gt; ()"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "1804">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A6FD187-486C-4DE1-86C5-386BFBC9B284"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "setupInitialDataSource()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BEA0EE5-BFB2-44FA-9D86-E6AB6D9D7079"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/ImageView/DarkRoomImageViewerController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "navBar"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C134082-F6E0-4CBC-BCB5-0D1665694710"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/ImageView/DarkRoomImageViewerController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "navBar"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDAC9141-94AA-4D4A-B8BD-194642419279"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "prepareNavBar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FE88A2F-31C7-455A-A25B-D625EC08A927"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
+            landmarkName = "didTapRightNavBarItem(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEA10160-637E-4D12-9B50-354E426727B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "navBar"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CEA10160-637E-4D12-9B50-354E426727B3 - 5c008fcfc0a80fdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIView in DarkRoomTest.DarkRoomCarouselViewController.navBar.getter : __C.UIView"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "1096">
+               </Location>
+               <Location
+                  uuid = "CEA10160-637E-4D12-9B50-354E426727B3 - 5c008fcfc0a80880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIView in DarkRoomTest.DarkRoomCarouselViewController.navBar.getter : __C.UIView"
+                  moduleName = "DarkRoomTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exodusent/Documents/Project/DarkRoomTest/DarkRoomTest/Sources/DarkRoom/Carousel/DarkRoomCarouselViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "840">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
