@@ -34,8 +34,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.button.addTarget(self, action: #selector(clickImage), for: .touchUpInside)
-        clickImage()
+        self.button.addTarget(self, action: #selector(clickVideo), for: .touchUpInside)
+        clickVideo()
     }
     
     @objc func clickImage() {
@@ -46,6 +46,17 @@ class ViewController: UIViewController {
         mediaItems.append(temp1)
         mediaItems.append(temp2)
         mediaItems.append(temp3)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            let carauselController = DarkRoomCarouselViewController(imageDataSource: self, imageDelegate: self, imageLoader: ImageLoaderImpl(), initialIndex: 0, configuration: DarkRoomCarouselDefaultConfiguration(), nickname: "agfggg", timeString: "2023. 08. 29(화) 오후 03:46", imageUrl: "https://cxvavpevuyhk11458802.cdn.ntruss.com/51/f094f030-5af1-4bd8-a762-8fd95af7520d.webp?type=m&w=3000&h=3000")
+            self.present(carauselController, animated: true)
+        }
+    }
+    
+    @objc func clickVideo() {
+        let temp1: MediaItem = .video(v: MediaVideo(previewImage: imageview.image, url: URL(string: "https://toyqpwomxocl10099041.cdn.ntruss.com/hls/rOTgulfvoh0kzep2HPMteQ__/1201/d9be2b40-828c-4a38-b038-2914e0de7278,,_SD_480,_HD_720,_FHD_1080,.mp4.smil/master.m3u8"), previewUrl: URL(string: "https://cxvavpevuyhk11458802.cdn.ntruss.com/51/5b9f2fec-5ff5-48ef-adb7-55ce1d854fce.webp?type=m&w=3000&h=3000")))
+        
+        mediaItems.append(temp1)
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             let carauselController = DarkRoomCarouselViewController(imageDataSource: self, imageDelegate: self, imageLoader: ImageLoaderImpl(), initialIndex: 0, configuration: DarkRoomCarouselDefaultConfiguration(), nickname: "agfggg", timeString: "2023. 08. 29(화) 오후 03:46", imageUrl: "https://cxvavpevuyhk11458802.cdn.ntruss.com/51/f094f030-5af1-4bd8-a762-8fd95af7520d.webp?type=m&w=3000&h=3000")
