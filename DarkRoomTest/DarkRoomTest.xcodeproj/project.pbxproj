@@ -99,6 +99,8 @@
 		40582EC22AD66F720083C653 /* DarkRoomTransitionPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E6F2AD66F720083C653 /* DarkRoomTransitionPresentationManager.swift */; };
 		40582EC32AD66F720083C653 /* DarkRoomTransitionPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582E702AD66F720083C653 /* DarkRoomTransitionPresenting.swift */; };
 		40582EC42AD66F720083C653 /* DarkRoom.docc in Sources */ = {isa = PBXBuildFile; fileRef = 40582E712AD66F720083C653 /* DarkRoom.docc */; };
+		40D9B3172ADCFB8E0015451B /* MediaPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D9B3162ADCFB8E0015451B /* MediaPreviewView.swift */; };
+		40D9B3192ADCFCC50015451B /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D9B3182ADCFCC50015451B /* PreviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +217,8 @@
 		40582E6F2AD66F720083C653 /* DarkRoomTransitionPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomTransitionPresentationManager.swift; sourceTree = "<group>"; };
 		40582E702AD66F720083C653 /* DarkRoomTransitionPresenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoomTransitionPresenting.swift; sourceTree = "<group>"; };
 		40582E712AD66F720083C653 /* DarkRoom.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DarkRoom.docc; sourceTree = "<group>"; };
+		40D9B3162ADCFB8E0015451B /* MediaPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPreviewView.swift; sourceTree = "<group>"; };
+		40D9B3182ADCFCC50015451B /* PreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -408,6 +412,7 @@
 		40582E362AD66F720083C653 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				40D9B3152ADCFB690015451B /* preview */,
 				40582E372AD66F720083C653 /* LoadingView */,
 				40582E3C2AD66F720083C653 /* DarkRoomPlayerView.swift */,
 				40582E3D2AD66F720083C653 /* Info */,
@@ -534,6 +539,15 @@
 				40582E702AD66F720083C653 /* DarkRoomTransitionPresenting.swift */,
 			);
 			path = Transitions;
+			sourceTree = "<group>";
+		};
+		40D9B3152ADCFB690015451B /* preview */ = {
+			isa = PBXGroup;
+			children = (
+				40D9B3162ADCFB8E0015451B /* MediaPreviewView.swift */,
+				40D9B3182ADCFCC50015451B /* PreviewCell.swift */,
+			);
+			path = preview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -678,6 +692,7 @@
 				40582EBD2AD66F720083C653 /* Optional++Extensions.swift in Sources */,
 				40582EA72AD66F720083C653 /* DarkRoomBufferObserverService.swift in Sources */,
 				40582EA92AD66F720083C653 /* DarkRoomReachabilityService.swift in Sources */,
+				40D9B3172ADCFB8E0015451B /* MediaPreviewView.swift in Sources */,
 				40582EB72AD66F720083C653 /* DarkRoomCarouselAbstractData.swift in Sources */,
 				40582E8A2AD66F720083C653 /* Publisher++Extension.swift in Sources */,
 				40582E722AD66F720083C653 /* DarkRoomDummyImageView.swift in Sources */,
@@ -752,6 +767,7 @@
 				40582EB42AD66F720083C653 /* DarkRoomCarouselDelegate.swift in Sources */,
 				40582EBA2AD66F720083C653 /* DarkRoomCarouselViewController.swift in Sources */,
 				40582E752AD66F720083C653 /* DarkRoomImageControllerConfiguration.swift in Sources */,
+				40D9B3192ADCFCC50015451B /* PreviewCell.swift in Sources */,
 				40582E952AD66F720083C653 /* DarkRoomStrokeAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

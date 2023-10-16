@@ -7,30 +7,34 @@
 
 import UIKit
 
+private enum DarkRoomMediaType: Int {
+    case singleImage = 1
+    case multiImage = 2
+    case singleVideo = 3
+    case multiVideo = 4
+    case mixedMedia = 5
+}
+
 class MediaUserInfoView: UIView {
     // MARK: - Views
     
     private let stackview = UIStackView()
-    private let type: Int
+    private let type: DarkRoomMediaType
     private var userInfo: DarkRoomMediaUserInfo?
     private var imageLoader: DarkRoomImageLoader?
-    // MARK: - LifeCycle
     
-    // type: Int 0 : SingleVideo, 10 : SingleImage, 11 : MultiImage
-    private let singleVideo = 0
-    private let singleImage = 10
-    private let multiImage = 11
+    // MARK: - LifeCycle
     
     internal init(userInfo: DarkRoomMediaUserInfo, imageLoader: DarkRoomImageLoader, type: Int) {
         self.userInfo = userInfo
         self.imageLoader = imageLoader
-        self.type = type
+        self.type = DarkRoomMediaType(rawValue: type) ?? .mixedMedia
         super.init(frame: .zero)
         prepare()
     }
 
     internal required init?(coder: NSCoder) {
-        self.type = singleImage
+        self.type = .mixedMedia
         super.init(coder: coder)
         prepare()
     }
@@ -66,7 +70,7 @@ class MediaUserInfoView: UIView {
             profile.image = image
         }
         
-        var name = UILabel()
+        let name = UILabel()
         name.translatesAutoresizingMaskIntoConstraints = false
         name.textAlignment = .left
         name.numberOfLines = 1
@@ -74,25 +78,25 @@ class MediaUserInfoView: UIView {
         name.font = UIFont.systemFont(ofSize: 14, weight: .bold)
         name.text = userInfo.nickname
         
-        var verifiedIcon = UIImageView(frame: CGRect(x: 0, y: 0, width: 12, height: 13))
+        let verifiedIcon = UIImageView(frame: CGRect(x: 0, y: 0, width: 12, height: 13))
         verifiedIcon.translatesAutoresizingMaskIntoConstraints = false
         verifiedIcon.image = UIImage(named: "icon_verified_badge_small")
         
         var iconImage: UIImage?
         switch type {
-        case singleVideo:
-            iconImage = UIImage(named: "icon_video_photo_18px")
-        case multiImage:
-            iconImage = UIImage(named: "icon_multi-select_photo_18px")
-        default:
+        case .singleImage, .multiVideo, .mixedMedia:
             break
+        case .multiImage:
+            iconImage = UIImage(named: "icon_multi-select_photo_18px")
+        case .singleVideo:
+            iconImage = UIImage(named: "icon_video_photo_18px")
         }
         
-        var mediaIcon = UIImageView(frame: CGRect(x: 0, y: 0, width: 18, height: 18))
+        let mediaIcon = UIImageView(frame: CGRect(x: 0, y: 0, width: 18, height: 18))
         mediaIcon.translatesAutoresizingMaskIntoConstraints = false
         mediaIcon.image = iconImage
         
-        var time = UILabel()
+        let time = UILabel()
         time.translatesAutoresizingMaskIntoConstraints = false
         time.textAlignment = .left
         time.numberOfLines = 1

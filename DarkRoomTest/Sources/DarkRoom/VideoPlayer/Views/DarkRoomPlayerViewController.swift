@@ -287,7 +287,7 @@ internal final class DarkRoomPlayerViewController: UIViewController, DarkRoomMed
         
         DispatchQueue.main.async {
             guard let infoView = self.infoView else { return }
-            let infoviewHeight = infoView.frame.size.height
+            let infoviewHeight = infoView.frame.size.height * -1
             self.controlViewBottomLayout = self.controlView.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: infoviewHeight)
             
             NSLayoutConstraint.activate([
@@ -547,7 +547,7 @@ internal final class DarkRoomPlayerViewController: UIViewController, DarkRoomMed
     private func changeControlsVisibilty(with isShowingControls: Bool) {
         UIView.animate(withDuration: 0.235, delay: 0, options: [.curveEaseInOut]) { [weak self] in
             guard let strongSelf = self else { return }
-            strongSelf.infoViewBottomLayout.constant = isShowingControls ? 200 : 0
+            strongSelf.controlView.isHidden = isShowingControls
             strongSelf.infoView?.isHidden = isShowingControls
             strongSelf.view.layoutIfNeeded()
             strongSelf.navBar?.alpha = isShowingControls ? 0.0 : 1.0
