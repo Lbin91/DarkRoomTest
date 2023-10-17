@@ -11,15 +11,26 @@ class MediaPreviewView: UIView {
     let collectionview: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
+        layout.estimatedItemSize = .zero
         layout.minimumLineSpacing = 8
         
         let collectionview = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionview.translatesAutoresizingMaskIntoConstraints = false
-        collectionview.isPagingEnabled = true
-        collectionview.showsHorizontalScrollIndicator = false
+        collectionview.isPagingEnabled = false
         collectionview.showsVerticalScrollIndicator = false
         collectionview.backgroundColor = .clear
+        collectionview.bounces = true
+        collectionview.isScrollEnabled = false
         return collectionview
+    }()
+    
+    let label: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = ""
+        label.textColor = .white
+        label.font = UIFont.systemFont(ofSize: 12, weight: .medium)
+        return label
     }()
     
     override init(frame: CGRect) {
@@ -35,6 +46,7 @@ class MediaPreviewView: UIView {
     private func prepare() {
         prepareBackgroundView()
         prepareCollectionView()
+        prepareLabel()
     }
     
     private func prepareBackgroundView() {
@@ -63,5 +75,30 @@ class MediaPreviewView: UIView {
         ])
         
         collectionview.register(PreviewCell.self, forCellWithReuseIdentifier: "PreviewCell")
+    }
+    
+    private func prepareLabel() {
+        addSubview(label)
+        
+        NSLayoutConstraint.activate([
+            label.topAnchor.constraint(equalTo: collectionview.bottomAnchor, constant: 4),
+            label.centerXAnchor.constraint(equalTo: collectionview.centerXAnchor)
+        ])
+    }
+    
+    func scrollToItem(index: Int) {
+        let numberOfItem = collectionview.numberOfItems(inSection: 0)
+        guard index >= 0,
+              numberOfItem > index else { return }
+        let idp = IndexPath(item: index, section: 0)
+        DispatchQueue.main.async {
+            self.collectionview.layoutIfNeeded()
+            self.collectionview.scrollToItem(at: idp, at: .centeredHorizontally, animated: false)
+            self.updateBottomLabel(index: index, allCount: numberOfItem)
+        }
+    }
+    
+    private func updateBottomLabel(index: Int, allCount: Int) {
+        label.text = "( \(index+1) / \(allCount) )"
     }
 }
