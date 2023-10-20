@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4049C21C2AE25A7F00E97207 /* YouTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049C21B2AE25A7F00E97207 /* YouTubeViewController.swift */; };
+		4049C21E2AE25A9B00E97207 /* YouTubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4049C21D2AE25A9B00E97207 /* YouTubeViewController.xib */; };
+		4049C2202AE267BD00E97207 /* SubTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049C21F2AE267BD00E97207 /* SubTitleCell.swift */; };
+		4049C2222AE26A0500E97207 /* SubTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4049C2212AE26A0500E97207 /* SubTitleCell.xib */; };
+		4049C2262AE2718900E97207 /* UF1j7cQ4_kr.srt in Resources */ = {isa = PBXBuildFile; fileRef = 4049C2242AE2718900E97207 /* UF1j7cQ4_kr.srt */; };
+		4049C2272AE2718900E97207 /* UF1j7cQ4_en.srt in Resources */ = {isa = PBXBuildFile; fileRef = 4049C2252AE2718900E97207 /* UF1j7cQ4_en.srt */; };
 		40582DDC2AD66F500083C653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DDB2AD66F500083C653 /* AppDelegate.swift */; };
 		40582DDE2AD66F500083C653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DDD2AD66F500083C653 /* SceneDelegate.swift */; };
 		40582DE02AD66F500083C653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DDF2AD66F500083C653 /* ViewController.swift */; };
@@ -101,6 +107,7 @@
 		40582EC42AD66F720083C653 /* DarkRoom.docc in Sources */ = {isa = PBXBuildFile; fileRef = 40582E712AD66F720083C653 /* DarkRoom.docc */; };
 		40D9B3172ADCFB8E0015451B /* MediaPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D9B3162ADCFB8E0015451B /* MediaPreviewView.swift */; };
 		40D9B3192ADCFCC50015451B /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D9B3182ADCFCC50015451B /* PreviewCell.swift */; };
+		83D1E8CD439BCD865D879A41 /* Pods_DarkRoomTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEADAF1AF43191B493F1291 /* Pods_DarkRoomTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +128,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FEADAF1AF43191B493F1291 /* Pods_DarkRoomTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkRoomTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B681FAE881B024490A019B2 /* Pods-DarkRoomTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkRoomTest.release.xcconfig"; path = "Target Support Files/Pods-DarkRoomTest/Pods-DarkRoomTest.release.xcconfig"; sourceTree = "<group>"; };
+		4049C21B2AE25A7F00E97207 /* YouTubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeViewController.swift; sourceTree = "<group>"; };
+		4049C21D2AE25A9B00E97207 /* YouTubeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouTubeViewController.xib; sourceTree = "<group>"; };
+		4049C21F2AE267BD00E97207 /* SubTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTitleCell.swift; sourceTree = "<group>"; };
+		4049C2212AE26A0500E97207 /* SubTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubTitleCell.xib; sourceTree = "<group>"; };
+		4049C2242AE2718900E97207 /* UF1j7cQ4_kr.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UF1j7cQ4_kr.srt; sourceTree = "<group>"; };
+		4049C2252AE2718900E97207 /* UF1j7cQ4_en.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UF1j7cQ4_en.srt; sourceTree = "<group>"; };
 		40582DD82AD66F500083C653 /* DarkRoomTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkRoomTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40582DDB2AD66F500083C653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40582DDD2AD66F500083C653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -219,6 +234,7 @@
 		40582E712AD66F720083C653 /* DarkRoom.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DarkRoom.docc; sourceTree = "<group>"; };
 		40D9B3162ADCFB8E0015451B /* MediaPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPreviewView.swift; sourceTree = "<group>"; };
 		40D9B3182ADCFCC50015451B /* PreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
+		71B5B7AA082E69AEBE092C51 /* Pods-DarkRoomTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkRoomTest.debug.xcconfig"; path = "Target Support Files/Pods-DarkRoomTest/Pods-DarkRoomTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +242,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D1E8CD439BCD865D879A41 /* Pods_DarkRoomTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +263,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4049C2232AE2713B00E97207 /* srt */ = {
+			isa = PBXGroup;
+			children = (
+				4049C2252AE2718900E97207 /* UF1j7cQ4_en.srt */,
+				4049C2242AE2718900E97207 /* UF1j7cQ4_kr.srt */,
+			);
+			path = srt;
+			sourceTree = "<group>";
+		};
 		40582DCF2AD66F500083C653 = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +280,8 @@
 				40582DF12AD66F520083C653 /* DarkRoomTestTests */,
 				40582DFB2AD66F520083C653 /* DarkRoomTestUITests */,
 				40582DD92AD66F500083C653 /* Products */,
+				D584B5CA5BB6BB2043CF7DC8 /* Pods */,
+				4A63DA379E185EF4B1338A10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -270,6 +298,7 @@
 		40582DDA2AD66F500083C653 /* DarkRoomTest */ = {
 			isa = PBXGroup;
 			children = (
+				4049C2232AE2713B00E97207 /* srt */,
 				40582DDB2AD66F500083C653 /* AppDelegate.swift */,
 				40582DDD2AD66F500083C653 /* SceneDelegate.swift */,
 				40582DDF2AD66F500083C653 /* ViewController.swift */,
@@ -277,6 +306,10 @@
 				40582DE42AD66F520083C653 /* Assets.xcassets */,
 				40582DE62AD66F520083C653 /* LaunchScreen.storyboard */,
 				40582DE92AD66F520083C653 /* Info.plist */,
+				4049C21B2AE25A7F00E97207 /* YouTubeViewController.swift */,
+				4049C21D2AE25A9B00E97207 /* YouTubeViewController.xib */,
+				4049C21F2AE267BD00E97207 /* SubTitleCell.swift */,
+				4049C2212AE26A0500E97207 /* SubTitleCell.xib */,
 			);
 			path = DarkRoomTest;
 			sourceTree = "<group>";
@@ -550,6 +583,23 @@
 			path = preview;
 			sourceTree = "<group>";
 		};
+		4A63DA379E185EF4B1338A10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FEADAF1AF43191B493F1291 /* Pods_DarkRoomTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D584B5CA5BB6BB2043CF7DC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71B5B7AA082E69AEBE092C51 /* Pods-DarkRoomTest.debug.xcconfig */,
+				3B681FAE881B024490A019B2 /* Pods-DarkRoomTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -557,9 +607,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40582E022AD66F520083C653 /* Build configuration list for PBXNativeTarget "DarkRoomTest" */;
 			buildPhases = (
+				22EE89F248E8FC571BC05AEE /* [CP] Check Pods Manifest.lock */,
 				40582DD42AD66F500083C653 /* Sources */,
 				40582DD52AD66F500083C653 /* Frameworks */,
 				40582DD62AD66F500083C653 /* Resources */,
+				C05567FE854F2A1E4A2DA935 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -658,7 +710,11 @@
 				40582DE52AD66F520083C653 /* Assets.xcassets in Resources */,
 				40582EAC2AD66F720083C653 /* ColorAssets.xcassets in Resources */,
 				40582DE32AD66F500083C653 /* Main.storyboard in Resources */,
+				4049C21E2AE25A9B00E97207 /* YouTubeViewController.xib in Resources */,
 				40582EB02AD66F720083C653 /* ImageAssets.xcassets in Resources */,
+				4049C2272AE2718900E97207 /* UF1j7cQ4_en.srt in Resources */,
+				4049C2222AE26A0500E97207 /* SubTitleCell.xib in Resources */,
+				4049C2262AE2718900E97207 /* UF1j7cQ4_kr.srt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,12 +734,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22EE89F248E8FC571BC05AEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkRoomTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05567FE854F2A1E4A2DA935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkRoomTest/Pods-DarkRoomTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkRoomTest/Pods-DarkRoomTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarkRoomTest/Pods-DarkRoomTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40582DD42AD66F500083C653 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				40582E992AD66F720083C653 /* DarkRoomPlayerView.swift in Sources */,
+				4049C2202AE267BD00E97207 /* SubTitleCell.swift in Sources */,
 				40582E7E2AD66F720083C653 /* DarkRoomPlayerMedia.swift in Sources */,
 				40582EAE2AD66F720083C653 /* DarkRoomAsset.swift in Sources */,
 				40582EA22AD66F720083C653 /* DarkRoomAssetResourceLoaderRequest.swift in Sources */,
@@ -734,6 +833,7 @@
 				40582E962AD66F720083C653 /* DarkRoomLoadingShapeLayer.swift in Sources */,
 				40582E7B2AD66F720083C653 /* DarkRoomLoadingViewConfiguration.swift in Sources */,
 				40582E9C2AD66F720083C653 /* DarkRoomPlayerControlView.swift in Sources */,
+				4049C21C2AE25A7F00E97207 /* YouTubeViewController.swift in Sources */,
 				40582EA62AD66F720083C653 /* DarkRoomSeekService.swift in Sources */,
 				40582E862AD66F720083C653 /* DarkRoomPlayerContext.swift in Sources */,
 				40582EBB2AD66F720083C653 /* DarkRoomCarouselOption.swift in Sources */,
@@ -940,6 +1040,7 @@
 		};
 		40582E032AD66F520083C653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B5B7AA082E69AEBE092C51 /* Pods-DarkRoomTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -969,6 +1070,7 @@
 		};
 		40582E042AD66F520083C653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B681FAE881B024490A019B2 /* Pods-DarkRoomTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
