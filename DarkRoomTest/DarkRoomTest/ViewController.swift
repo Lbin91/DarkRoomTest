@@ -42,8 +42,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.button.addTarget(self, action: #selector(clickVideo), for: .touchUpInside)
-        clickVideo()
+        self.button.addTarget(self, action: #selector(clickYoutube), for: .touchUpInside)
+        clickYoutube()
     }
     
     @objc func clickImage() {
@@ -73,6 +73,12 @@ class ViewController: UIViewController {
             let carauselController = DarkRoomCarouselViewController(imageDataSource: self, imageDelegate: self, imageLoader: ImageLoaderImpl(), initialIndex: 0, configuration: DarkRoomCarouselDefaultConfiguration(), type: DarkRoomMediaType.singleVideo.rawValue, nickname: "agfggg", timeString: "2023. 08. 29(화) 오후 03:46", imageUrl: "https://cxvavpevuyhk11458802.cdn.ntruss.com/51/f094f030-5af1-4bd8-a762-8fd95af7520d.webp?type=m&w=3000&h=3000")
             self.present(carauselController, animated: true)
         }
+    }
+    
+    @objc func clickYoutube() {
+        let ytbVC = YouTubeViewController(videoId: "Ga-UF1j7cQ4")
+        ytbVC.modalPresentationStyle = .fullScreen
+        self.present(ytbVC, animated: true)
     }
 }
 

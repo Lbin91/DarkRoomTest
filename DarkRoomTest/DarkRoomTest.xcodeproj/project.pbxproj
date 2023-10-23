@@ -11,8 +11,8 @@
 		4049C21E2AE25A9B00E97207 /* YouTubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4049C21D2AE25A9B00E97207 /* YouTubeViewController.xib */; };
 		4049C2202AE267BD00E97207 /* SubTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049C21F2AE267BD00E97207 /* SubTitleCell.swift */; };
 		4049C2222AE26A0500E97207 /* SubTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4049C2212AE26A0500E97207 /* SubTitleCell.xib */; };
-		4049C2262AE2718900E97207 /* UF1j7cQ4_kr.srt in Resources */ = {isa = PBXBuildFile; fileRef = 4049C2242AE2718900E97207 /* UF1j7cQ4_kr.srt */; };
-		4049C2272AE2718900E97207 /* UF1j7cQ4_en.srt in Resources */ = {isa = PBXBuildFile; fileRef = 4049C2252AE2718900E97207 /* UF1j7cQ4_en.srt */; };
+		4049C2262AE2718900E97207 /* Ga-UF1j7cQ4_kr.srt in Resources */ = {isa = PBXBuildFile; fileRef = 4049C2242AE2718900E97207 /* Ga-UF1j7cQ4_kr.srt */; };
+		4049C2272AE2718900E97207 /* Ga-UF1j7cQ4_en.srt in Resources */ = {isa = PBXBuildFile; fileRef = 4049C2252AE2718900E97207 /* Ga-UF1j7cQ4_en.srt */; };
 		40582DDC2AD66F500083C653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DDB2AD66F500083C653 /* AppDelegate.swift */; };
 		40582DDE2AD66F500083C653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DDD2AD66F500083C653 /* SceneDelegate.swift */; };
 		40582DE02AD66F500083C653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40582DDF2AD66F500083C653 /* ViewController.swift */; };
@@ -134,8 +134,8 @@
 		4049C21D2AE25A9B00E97207 /* YouTubeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouTubeViewController.xib; sourceTree = "<group>"; };
 		4049C21F2AE267BD00E97207 /* SubTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTitleCell.swift; sourceTree = "<group>"; };
 		4049C2212AE26A0500E97207 /* SubTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubTitleCell.xib; sourceTree = "<group>"; };
-		4049C2242AE2718900E97207 /* UF1j7cQ4_kr.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UF1j7cQ4_kr.srt; sourceTree = "<group>"; };
-		4049C2252AE2718900E97207 /* UF1j7cQ4_en.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UF1j7cQ4_en.srt; sourceTree = "<group>"; };
+		4049C2242AE2718900E97207 /* Ga-UF1j7cQ4_kr.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ga-UF1j7cQ4_kr.srt"; sourceTree = "<group>"; };
+		4049C2252AE2718900E97207 /* Ga-UF1j7cQ4_en.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ga-UF1j7cQ4_en.srt"; sourceTree = "<group>"; };
 		40582DD82AD66F500083C653 /* DarkRoomTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkRoomTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40582DDB2AD66F500083C653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40582DDD2AD66F500083C653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,8 +266,8 @@
 		4049C2232AE2713B00E97207 /* srt */ = {
 			isa = PBXGroup;
 			children = (
-				4049C2252AE2718900E97207 /* UF1j7cQ4_en.srt */,
-				4049C2242AE2718900E97207 /* UF1j7cQ4_kr.srt */,
+				4049C2252AE2718900E97207 /* Ga-UF1j7cQ4_en.srt */,
+				4049C2242AE2718900E97207 /* Ga-UF1j7cQ4_kr.srt */,
 			);
 			path = srt;
 			sourceTree = "<group>";
@@ -712,9 +712,9 @@
 				40582DE32AD66F500083C653 /* Main.storyboard in Resources */,
 				4049C21E2AE25A9B00E97207 /* YouTubeViewController.xib in Resources */,
 				40582EB02AD66F720083C653 /* ImageAssets.xcassets in Resources */,
-				4049C2272AE2718900E97207 /* UF1j7cQ4_en.srt in Resources */,
+				4049C2272AE2718900E97207 /* Ga-UF1j7cQ4_en.srt in Resources */,
 				4049C2222AE26A0500E97207 /* SubTitleCell.xib in Resources */,
-				4049C2262AE2718900E97207 /* UF1j7cQ4_kr.srt in Resources */,
+				4049C2262AE2718900E97207 /* Ga-UF1j7cQ4_kr.srt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

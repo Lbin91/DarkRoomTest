@@ -16,16 +16,16 @@
                 <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1D-BA-g9E">
-                        <rect key="frame" x="15" y="5" width="363" height="56"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1D-BA-g9E">
+                        <rect key="frame" x="15" y="15" width="363" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="N1D-BA-g9E" firstAttribute="top" secondItem="ioK-K3-eMI" secondAttribute="top" constant="5" id="54m-nP-z3r"/>
-                    <constraint firstAttribute="bottom" secondItem="N1D-BA-g9E" secondAttribute="bottom" constant="5" id="acp-eh-qzF"/>
+                    <constraint firstItem="N1D-BA-g9E" firstAttribute="top" secondItem="ioK-K3-eMI" secondAttribute="top" constant="15" id="54m-nP-z3r"/>
+                    <constraint firstAttribute="bottom" secondItem="N1D-BA-g9E" secondAttribute="bottom" constant="15" id="acp-eh-qzF"/>
                     <constraint firstItem="N1D-BA-g9E" firstAttribute="leading" secondItem="ioK-K3-eMI" secondAttribute="leading" constant="15" id="jc9-TE-1IA"/>
                     <constraint firstAttribute="trailing" secondItem="N1D-BA-g9E" secondAttribute="trailing" constant="15" id="w2k-f5-0Pp"/>
                 </constraints>
